@@ -46,5 +46,32 @@ h2 {
     background-color: linear-gradient(#e66465, #9198e5);
 } */
 
-iframe {background-color:linear-gradient(#e66465, #9198e5)}
 
+/* source {
+    width: 20%!important;
+} */
+
+.video-hero {
+    background: tomato;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .video-hero__cortinilla {
+    background: rgba(0,0,0,0.7);
+    height: 50vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+
+  .card img {
+    width: 20%;
+    text-align: center;
+  }
+
+  img{
+    display:block;
+    margin:auto;
+    margin-top: 25px;
+}
