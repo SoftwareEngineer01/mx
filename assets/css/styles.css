@@ -25,10 +25,26 @@
 }
 
 h1 {
-    font-size: 2.7em;
+    font-size: 2.6em;
+    font-weight: bold;    
+}
+
+h2 {
+    font-size: 2.6em;
     font-weight: bold;    
 }
 
 .med {
     padding-left: 35px;
 }
+
+.card {
+    border-radius: 40px;
+}
+
+/* .video {
+    background-color: linear-gradient(#e66465, #9198e5);
+} */
+
+iframe {background-color:linear-gradient(#e66465, #9198e5)}
+
