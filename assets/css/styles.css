@@ -80,3 +80,32 @@ h2 {
   opacity: 0.6;
   color: rgb(252, 4, 4);
 }
+.videoContainer 
+{
+  background-color: green;
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.videoContainer video 
+{
+    /* position: relative; */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 5;
+}
+.videoContainer .overlay {
+    background: black;
+    opacity: 0.5;
+    /* position: absolute; */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    text-align: center;
+    margin: 0%;
+  }
