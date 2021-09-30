@@ -75,3 +75,8 @@ h2 {
     margin:auto;
     margin-top: 25px;
 }
+
+#fondo {
+  opacity: 0.6;
+  color: rgb(252, 4, 4);
+}
