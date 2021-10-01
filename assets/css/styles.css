@@ -51,21 +51,7 @@ h2 {
     width: 20%!important;
 } */
 
-.video-hero {
-    background: tomato;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-  }
-  .video-hero__cortinilla {
-    background: rgba(0,0,0,0.7);
-    height: 50vh;
-    position: absolute;
-    width: 100%;
-    top: 0;
-  }
-
-  .card img {
+ .card img {
     width: 20%;
     text-align: center;
   }
@@ -82,22 +68,25 @@ h2 {
 }
 .videoContainer 
 {
-  background-color: green;
+  background-color: #126FB7;
   /* position: absolute; */
-  width: 100%;
+  min-width: 100%;
   height: 100%;
   border-radius: 0px;
-
-  background-attachment: scroll;
-  overflow: hidden;
+padding: 0%;
+  /* background-attachment: scroll; */
+  /* overflow: hidden; */
 }
 
-.videoContainer video 
+ video 
 {
-    /* position: relative; */
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 5;
+    position: relative;
+     min-width: 55%;
+     max-width: 75%;
+    min-height: 30%;
+    z-index: 1;
+    /* width: 30%;
+    height: 30%; */
 }
 .videoContainer .overlay {
     background: black;
@@ -105,7 +94,8 @@ h2 {
     /* position: absolute; */
     min-width: 100%;
     min-height: 100%;
-    z-index: 1;
+    z-index: 1; 
     text-align: center;
-    margin: 0%;
+    margin: 0;
+    padding: 0%;
   }
