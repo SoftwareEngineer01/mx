@@ -102,14 +102,14 @@ padding: 0%;
     margin-top:120px
   }
 
-  .card {
+  .card-services {
     background-color: #DFF3F8;
     border-radius: 40px;
     /* width: 300px;  */
      
   }
 
-  .card-body {
+  .card-body-services {
       /* background-color: #DFF3F8; */
     
      /* border: 2px solid #555;  */
@@ -120,6 +120,31 @@ padding: 0%;
   }
 
 
-  .card-text {
+  .card-text-services {
       text-align: center;
+  }
+
+  @media (min-width: 1000px) {
+    .border-card {
+        padding: 50px;
+        border-radius: 300px 300px 300px 300px;
+    }
+  }
+
+
+  .background-section {
+    background-color: #DFF3F8;
+  }
+
+  .btn-section-cards {
+    border-radius: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .btn-llamar {
+      background-color: #fff;
+      color: #000;
   }
