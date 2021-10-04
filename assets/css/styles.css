@@ -229,3 +229,9 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .icons-pago {
   width: 85% !important;
 }
+
+@media (min-width: 1000px) {
+  .img-information {
+    width: 250%;
+  }
+}
