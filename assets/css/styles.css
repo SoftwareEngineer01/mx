@@ -202,6 +202,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     display: inline;
     margin-right: 22px;
     font-size: 30px;
+    text-align: center;
 }
 
 .margin-section {
@@ -210,4 +211,8 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 
 .font-size {
   font-size: 35px;
+}
+
+.column-img-footer {
+  text-align: center;
 }
