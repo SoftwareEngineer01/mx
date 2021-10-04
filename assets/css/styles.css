@@ -133,6 +133,10 @@ padding: 0%;
         padding: 50px;
         border-radius: 300px 300px 300px 300px;
     }
+    .colums-card {
+      width: 80% !important;
+      height: 95% !important;
+    }
   }
 
 
@@ -198,4 +202,12 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     display: inline;
     margin-right: 22px;
     font-size: 30px;
+}
+
+.margin-section {
+  margin-top: 200px;
+}
+
+.font-size {
+  font-size: 35px;
 }
