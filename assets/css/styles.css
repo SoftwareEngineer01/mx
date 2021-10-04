@@ -216,3 +216,16 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .column-img-footer {
   text-align: center;
 }
+
+.process { 
+  background: #DFF3F8;
+}
+
+.font-size-pagos {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.icons-pago {
+  width: 85% !important;
+}
