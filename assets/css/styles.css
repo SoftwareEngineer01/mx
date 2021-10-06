@@ -244,3 +244,13 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
   margin: 0 auto;
 }
 
+.card-white {
+  background-color: white;
+  height: 190px;
+  max-width: 80%;
+  border-radius: 40px;
+}
+
+.text-title-empezar {
+  font-size: 45px;
+}
