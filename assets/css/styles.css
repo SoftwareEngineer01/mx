@@ -241,4 +241,13 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
   .border-column {
     border-left: 1px solid #126FB7;
   }
+  .text-med {
+    font-size: 60px;
+  }
 }
+
+.img-envio {
+  max-width:70%; 
+  margin: 0 auto;
+}
+
