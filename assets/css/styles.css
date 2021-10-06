@@ -235,3 +235,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     width: 250%;
   }
 }
+
+
+@media (min-width: 768px) {
+  .border-column {
+    border-left: 1px solid #126FB7;
+  }
+}
